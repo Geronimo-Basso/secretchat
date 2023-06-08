@@ -5,7 +5,7 @@
 
 <section>
     <div>
-        <h1>Session ID: <?php echo generate_session()?></h1>
+        <h1>Session ID: <?php echo generate_session()?><br></h1>
     </div>
 </section>    
 
@@ -36,5 +36,7 @@
             echo $row['timeStarted'] . "<br>";
             echo $row['timeLimit'] . "<br>";
         }
-}
+
+        return $session_id;
+    }   
     

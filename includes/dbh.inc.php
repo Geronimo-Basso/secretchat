@@ -10,8 +10,6 @@ function executeQuery($query){
         $pdo = new PDO($dsn, $dbusername, $dbpassword);
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        echo "Connected successfully <br>";
-
         $statement = $pdo->prepare($query);
         $statement->execute();
 
