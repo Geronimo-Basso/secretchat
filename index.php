@@ -1,5 +1,5 @@
 <?php 
-include 'views/header.php';
+include 'header.php';
 ?>
 
 <article>
@@ -10,10 +10,9 @@ include 'views/header.php';
         When the session is <b>finished</b> all the <b>information will be deleted.</b> 
         </p>    
     </div>
-    <button class="button"><a href="create-chat/sc_create_chat.php"><b>Create a chatroom<b></a></button>
-    <button class="button"><a href="join-chat/sc_join_chat.php"><b>Join a chatroom<b></a></button>
+    <button class="button"><a href="sc_create_chat.php"><b>Create a chatroom<b></a></button>
+    <button class="button"><a href="sc_join_chat.php"><b>Join a chatroom<b></a></button>
 </article>
 
 <?php 
-include 'views/footer.php';
-?>
+include 'footer.php';
