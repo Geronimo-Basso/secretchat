@@ -19,11 +19,30 @@ html{
    justify-content: center;
 }
 
+.header{
+    margin: 2rem;
+}
+
 p {
     line-height: 2;
     font-size: 1.5rem;
 }
 
-.header{
-    margin: 2rem;
+a{
+    text-decoration: none;
+    color: var(--background-header);
+
+}
+
+.button{
+  background-color: #0a1c0a; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }

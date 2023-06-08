@@ -10,8 +10,8 @@ include 'views/header.php';
         When the session is <b>finished</b> all the <b>information will be deleted.</b> 
         </p>    
     </div>
-    <button><a href="">Create a new chatroom</a></button>
-    <button><a href="">Join a new chatroom</a></button>
+    <button class="button"><a href=""><b>Create a chatroom<b></a></button>
+    <button class="button"><a href=""><b>Join a chatroom<b></a></button>
 </article>
 
 <?php 
